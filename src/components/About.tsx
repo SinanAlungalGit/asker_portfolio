@@ -125,7 +125,8 @@ const About: React.FC = () => {
               {/* CTA Buttons - updated to blue theme */}
               <div className="flex flex-col sm:flex-row gap-4">
                 <a 
-                  href="#" 
+                  href="/pdfs/resume.pdf" 
+                  download
                   className="inline-flex items-center justify-center px-6 py-3 bg-blue-700 text-white rounded-lg hover:bg-blue-800 transition-colors shadow-md"
                 >
                   <Download className="w-5 h-5 mr-2" />
